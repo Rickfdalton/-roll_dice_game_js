@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jathu's game 2</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="newgame button">New game</button>
+
+    <div class="wins">
+      <h1 class="p1wins">Player1 wins</h1>
+      <h1 class="p2wins">Player2 wins</h1>
+    </div>
+
+    <img class="dice-rolling" src="./dice.gif" alt="dice rolling" />
+    <img class="d1 side" src="./d1.jpg" alt="1" />
+    <img class="d2 side" src="./d2.jpg" alt="2" />
+    <img class="d3 side" src="./d3.jpg" alt="3" />
+    <img class="d4 side" src="./d4.jpg" alt="4" />
+    <img class="d5 side" src="./d5.jpg" alt="5" />
+    <img class="d6 side" src="./d6.jpg" alt="6" />
+
+    <div class="box">
+      <div class="p1">
+        <h1 class="p1-name name">player 1</h1>
+        <h1 class="p1-score score">0</h1>
+        <div class="p1-current-box current-box">
+          <h1 class="current">current</h1>
+          <h1 class="p1-current current-score">0</h1>
+        </div>
+        <div class="p1-rolldice rolldice p1-button button">🎲rolldice</div>
+        <div class="p1-hold hold p1-button button">📥hold</div>
+      </div>
+      <div class="p2">
+        <h1 class="p2-name name">player 2</h1>
+        <h1 class="p2-score score">0</h1>
+        <div class="p2-current-box current-box">
+          <h1 class="current">current</h1>
+          <h1 class="p2-current current-score">0</h1>
+        </div>
+        <div class="p2-rolldice rolldice p2-button button">🎲rolldice</div>
+        <div class="p2-hold hold p2-button button">📥hold</div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
